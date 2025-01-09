@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔮 Camille la Sorcière 🔮</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="magic-sparkles"></div>
+    <div class="witch-container">
+        <div class="title-wrapper">
+            <div class="title-decoration left">✧･ﾟ</div>
+            <h1 class="main-title">
+                <span class="title-line">Le Grimoire</span>
+                <span class="title-line accent">Astral</span>
+                <span class="title-line">de Camille</span>
+                <div class="title-underline"></div>
+            </h1>
+            <div class="title-decoration right">･ﾟ✧</div>
+        </div>
+        
+        <!-- Simplification de la structure -->
+        <div class="fortune-wheel-section">
+            <div class="wheel" id="wheel"></div>
+            <div class="wheel-pointer">🔮</div>
+            <button type="button" class="spin-button" id="spinButton">Révèle ton Destin ✨</button>
+        </div>
+
+        <div class="result-popup" id="resultPopup">
+            <div class="popup-content">
+                <h2 class="prediction-title"></h2>
+                <p class="prediction-text"></p>
+                <button type="button" class="close-btn">Fermer le portail ⭐</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Déplacer le script juste avant la fermeture du body -->
+    <script src="script.js"></script>
+</body>
+</html>
